@@ -1,0 +1,461 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body{
+    background-color: rgb(68, 68, 68);
+    z-index: -2;
+}
+.layer
+{
+    opacity: 65%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    height: 85vh;
+    width: 100%;
+}
+.heroimg
+{
+    height: 85vh;
+    width: 100vw;
+    background-image: url("assets/bg.jpg");
+    background-position: center center;
+    background-size:max(1200px,100vw);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    box-shadow: 0 0 800px rgba(0,0,0,1) inset;
+}
+
+#logo
+{
+    height: 40px;
+    z-index: 10;
+    color:rgb(229,9,20);
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 88px;
+    position: relative;
+}
+
+.navbuttons select
+{
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    height: 32px;
+    width: 126px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.navbuttons button
+{
+    background-color:rgb(229,9,20);
+    height: 32px;
+    width: 75px;
+    border:0px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.navbuttons
+{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.herocenter
+{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    position: relative;
+    padding:0px 30px 30px 30px;
+    text-align: center;
+}
+
+.herocenter h1{
+    width: 50vw;
+    font-size: 3.5rem;
+    font-weight: 800;
+    display: block;
+}
+
+.herocenter p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 90vw;
+}
+
+.herocenter h3
+{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top:3vh;
+    width:90vw;
+}
+
+.heroinput
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2.5vh;
+}
+
+.heroinput input
+{
+    background-color: transparent;
+    border: 1px solid rgb(44, 43, 43);
+    height: 56px;
+    width: 35vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color:white;
+    padding-left: 10px;
+}
+
+.heroinput button
+{
+    background-color: rgb(229,9,20);
+    border: 0px solid transparent;
+    border-radius: 4px;
+    height: 56px;
+    width: 30%;
+    color:white;
+    font-size:24px;
+    font-weight:600;
+}
+
+.box1
+{
+    margin-top: 8px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.box1 .tv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    text-align: center;
+}
+
+.box1 img{
+    height: 30vh;
+    z-index: 3;
+}
+
+.box1 video
+{
+    position:absolute;
+    height: 18vh;
+    z-index: 1;
+    align-self: center;
+}
+
+#box3 video
+{
+    height: 20vh;
+}
+
+.text #main
+{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.text #des
+{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top:1vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.faq
+{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin-top: 8px;
+}
+
+.faq h6{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.faq button
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: #2d2d2d;
+    border: none;
+    padding:20px;
+    color:white;
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.faq #q
+{
+    font-size: 1.5rem;
+}
+
+.faq svg
+{
+    color: white;
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+footer
+{
+    margin-top:10px;
+    height: 130vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 10vh;
+}
+
+footer h3{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 20px;
+}
+
+.navinput
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 20px;
+}
+.navinput input{
+    background-color: transparent;
+    border: 1px solid rgb(44, 43, 43);
+    height: 56px;
+    width: 60vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color:white;
+    padding-left: 10px;
+}
+
+.navinput button
+{
+    background-color: rgb(229,9,20);
+    border: 0px solid transparent;
+    border-radius: 4px;
+    height: 56px;
+    width: 15vw;
+    color:white;
+    font-size:24px;
+    font-weight:600;
+}
+
+.end .num
+{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.list
+{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.l1,.l2,.l3,.l4
+{
+    display:flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+footer select
+{
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    height: 32px;
+    width: 126px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 4px;
+    margin-right: 15px;
+    margin-left: 10vw;
+    margin-top: 20px;
+}
+
+footer h1{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 10vw;
+    color:#ffffffb3;
+    margin-top: 20px;
+}
+@media (max-width:1000px)
+{
+    .heroimg{
+        height: 500px;
+    }
+    .layer{
+        height: 500px;
+    }
+    #logo
+    {
+        height: 25px;
+    }
+    .herocenter h1{
+        width: 70%;
+        font-size: 2.3rem;
+        font-weight: 750;
+    }
+    .herocenter p{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .heroinput button{
+        width: 160px;
+    }
+
+    .navinput input{
+        width: 100%;
+    }
+
+    .navinput button
+    {
+        width: 35vw;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:800px)
+{
+    .box1 .text
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px)
+{
+    .herocenter h1
+    {
+        width: 95%;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .heroinput{
+        flex-wrap: wrap;
+    }
+    .heroinput input{
+        width: 90vw;
+    }
+    .box1
+    {
+        height: 60vh;
+    }
+    .box1 .text
+    {
+        width: 100vw;
+    }
+    .text #main
+    {
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+    .text #des
+    {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top:1vh;
+    }
+    .faq #q
+    {
+        font-size: 1.2rem;
+    }
+    footer
+    {
+        height: 150vh;
+    }
+}
+
+@media (max-width:400px)
+{
+    .box1 img {
+        height: 20vh;
+    }
+    .box1 video,#box3 video
+    {
+        height: 15vh;
+    }
+}
