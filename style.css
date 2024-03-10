@@ -23,7 +23,7 @@ body{
     width: 100vw;
     background-image: url("assets/bg.jpg");
     background-position: center center;
-    background-size:max(1200px,100vw);
+    background-size:cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
