@@ -262,6 +262,7 @@ footer
 {
     margin-top:10px;
     height: 130vh;
+    position:relative;
     background-color: black;
     color: white;
     display: flex;
